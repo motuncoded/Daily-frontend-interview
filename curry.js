@@ -1,9 +1,22 @@
-const multipyThree = (a, b, c) => {
+var curry = function(a, b, c)  {
     return a * b * c;
     
 }
-const curyMultiplyThree = curry(multipyThree);
+const addCurry = (a) => {
+    return (b) => {
+        return (c) => {
+            return a + b + c
+        }
+    }
+}
+const addCurried = (a) => {
+	return (b) => {
+			return a + b 
+		};
+	};
 
-console.log(multipyThree(1, 3, 5)) // 15
-console.log(multipyThree(1, 2)(5)) // 10
-console.log(multipyThree(1)(2)(5)) // 10
+
+
+console.log(curry(1, 3, 5)) // 15
+console.log(addCurried(1, 3) (5)) // 10
+console.log(addCurry(1)(3)(5)) // 10
