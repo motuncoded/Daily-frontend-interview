@@ -18,5 +18,5 @@ const addCurried = (a) => {
 
 
 console.log(curry(1, 3, 5)) // 15
-console.log(addCurried(1, 3) (5)) // 10
-console.log(addCurry(1)(3)(5)) // 10
+console.log(addCurried(1, 3) (5)) // 6
+console.log(addCurry(1)(3)(5)) // 9
