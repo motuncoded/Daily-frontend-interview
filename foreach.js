@@ -1,3 +1,4 @@
+/* #9
 This problem was asked by Facebook.
 
 Please implement your own Array.prototype.forEach()
@@ -12,3 +13,4 @@ words.newForEach((word, index) => {
 });
 
 console.log(upperCaseList); // [ 'APPLE', 'BALL', 'CAT' ]
+*/
