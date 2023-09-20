@@ -1,3 +1,16 @@
+
+<!--function curry(func) {
+  // Your code here
+}
+
+// Example usage:
+function add(a, b, c) {
+  return a + b + c;
+}
+
+const curriedAdd = curry(add);
+
+console.log(curriedAdd(1)(2)(3)); //--> 
 var curry = function(a, b, c)  {
     return a * b * c;
     
