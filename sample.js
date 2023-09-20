@@ -1,5 +1,7 @@
 
-/*This problem was asked by Tencent.
+/*
+#8
+This problem was asked by Tencent.
 
 Implement Array.prototype.sample() result gets a random element from array.
 
