@@ -1,5 +1,6 @@
 
-/*function curry(func) {
+/*
+#1function curry(func) {
   // Your code here
 }
 
