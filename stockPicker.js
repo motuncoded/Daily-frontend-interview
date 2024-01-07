@@ -1,3 +1,1 @@
-const stockPicker = () => {
-    
-}
+const stockPicker = () => {};
