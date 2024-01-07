@@ -1,4 +1,3 @@
-
 /*
 #8
 This problem was asked by Tencent.
@@ -9,9 +8,6 @@ Examples
 [1, 9, 8, 7].sample()
 [1, 2, 3, 4].sample()*/
 
-const sample = function () {
+const sample = function () {};
 
-        
-}
-
-console.log([1, 2].sample)
+console.log([1, 2].sample);
