@@ -48,60 +48,62 @@ console.log(arrg);
 
 //Using an array as literal
 
-const sports = ["cricket", "football", 
-                "competitive-programming"];
-console.log('sports=', sports);
- 
+const sports = ["cricket", "football", "competitive-programming"];
+console.log("sports=", sports);
+
 const myArray = [];
-console.log('myArray=', myArray);
- 
+console.log("myArray=", myArray);
+
 const score = [420, 10, 1, 12, 102];
-console.log('score=', score)
+console.log("score=", score);
 
 //using array constructor
 const sportsa = new Array("cricket", "football", "competitive-programming");
-console.log('sportsa=', sportsa);
- 
+console.log("sportsa=", sportsa);
+
 const myArraya = new Array();
-console.log('myArraya=', myArraya);
- 
+console.log("myArraya=", myArraya);
+
 const pointsa = new Array();
-console.log('points=a', pointsa);
- 
+console.log("points=a", pointsa);
+
 const scorea = new Array(140, 200, 21, 53, 245, 20);
-console.log('scorea=', scorea);
+console.log("scorea=", scorea);
 
 //Ways of iterating over a array in JavaScript
-let array = ['geeks', '4', 'geeks'];
- 
+let array = ["geeks", "4", "geeks"];
+
 // Accessing array elements one by one using conole.log
-console.log(array[0]); // geeks 
+console.log(array[0]); // geeks
 console.log(array[1]); // 4
 console.log(array[2]); //geeks
 
 //using for loop
 
-{/*let array1 = [0, 1,2];
+{
+  /*let array1 = [0, 1,2];
 for (index = 0; index < array1.length; index++){
     console.log(array1[index])
-}*/}
- 
+}*/
+}
+
 //using  while loop
-{/*let index = 0;
+{
+  /*let index = 0;
 let array2 = [1, 2, 3, 4, 5, 6];
  
 while (index < array2.length) {
     console.log(array2[index]);
     index++;
-}*/}
-
+}*/
+}
 
 // foreach
 let index = 0;
 let array3 = [1, 2, 3, 4, 5, 6];
- 
+
 array.forEach(myFunction);
- 
+
 function myFunction(item, index) {
-    console.log(item);
+  console.log(item);
 }
