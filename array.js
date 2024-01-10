@@ -161,4 +161,3 @@ arry.push(function () {
 arry[2]();
 console.log(arry[2]); //f (){alert(this)}
 console.log(arry); // a, b, f (){alert(this)}
-
