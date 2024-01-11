@@ -12,10 +12,20 @@ console.log(sports.join("+")); //volleyball+basketball+football
 //pop() to remove the last value of an array
 console.log(sports.pop()); //football
 console.log(sports); //['volleyball', 'basketball']
+let fruitss = ["apple", "banana", "orange"]
+let removedFruits = fruitss.pop()
+console.log(removedFruits) //orange
 
 //push() to add new value to the end of the array
 console.log(sports.push("badminton")); //3
 console.log(sports); // ['volleyball', 'basketball', 'badminton']
+let fruits = ["apple", "banana"]
+fruits.push("orange", "grape")
+console.log(fruits) //['apple', 'banana', 'orange', 'grape']
+console.log(typeof removedFruits) //string
+console.log(fruits)  //['apple', 'banana', 'orange', 'grape']
+
+
 
 //shift() to remove the first element in the array
 console.log(sports.shift()); //volleyball
