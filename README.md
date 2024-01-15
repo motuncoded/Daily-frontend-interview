@@ -1,3 +1,3 @@
-# Daily-frontend-interview
+# Daily frontend interview
 
-These are the solution to the daily interview questions for frontend developer.
+These are solutions to several examples to JavaScript 
