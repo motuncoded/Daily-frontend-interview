@@ -24,11 +24,11 @@ for (let i = 0; i < list.length; i++) {
 
 //create element
 
-const ul = document.querySelector("ul");
+//const ul = document.querySelector("ul");
 const li = document.createElement("li");
 
 // to add elements
-ul.appendChild(li);
+//ul.appendChild(li);
 
 //to modify text in html
 
@@ -36,9 +36,49 @@ console.log(list.innerText); //MotunThe matrix
 console.log(list.textContent); //MotunThe matrix
 console.log(list.innerHTML); //<span>Motun</span>The matrix
 
+//modify attributes
+li.setAttribute("id", "main-heading");
+li.style.color = "purple"
+console.log(li)
+
+//to remove attribute
+li.removeAttribute("id");
+console.log(li);
+
+li.classList.remove("list");
+console.log(li)
+console.log(li.classList.contains("list")) // false
+
+li.classList.add("list");
+console.log(li.classList.contains("list")) //true
+
+// remove elements
+li.remove()
+let ul = document.querySelector("ul")
+console.log(ul.parentNode) // the div container
+console.log(ul.parentElement) // the div parent
+//child node 
+
+console.log(ul.childNodes);
+console.log(ul.firstChild);
+console.log(ul.lastChild);
+
+ul.childNodes[1].style.color = "blue";
+console.log(ul.children)
+console.log(ul.firstElementChild)
+console.log(ul.lastElementChild)
+
+
+
+//sibling
+console.log(ul.previousSibling) 
+console.log(ul.previousElementSibling)
+console.log(ul.nextElementSibling)
+
+
 //to add a new element after the paragraph
 
-/*document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     
 
 const newElement = document.createElement("li");
@@ -63,4 +103,17 @@ newElement.textContent = "Black Men";
 
 
 
+})
+
+//EventListeners
+/*const btn = document.querySelector("button")
+btn.addEventListener("click", () => {
+  alert("hi");
+
 })*/
+
+const btn = document.querySelector("button");
+function alertBtn() {
+  alert("Hi")
+}
+btn.addEventListener("click", alertBtn)
