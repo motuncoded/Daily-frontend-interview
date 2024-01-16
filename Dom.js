@@ -57,14 +57,28 @@ li.remove()
 let ul = document.querySelector("ul")
 console.log(ul.parentNode) // the div container
 console.log(ul.parentElement) // the div parent
+//child node 
+
+console.log(ul.childNodes);
+console.log(ul.firstChild);
+console.log(ul.lastChild);
+
+ul.childNodes[1].style.color = "blue";
+console.log(ul.children)
+console.log(ul.firstElementChild)
+console.log(ul.lastElementChild)
 
 
 
+//sibling
+console.log(ul.previousSibling) 
+console.log(ul.previousElementSibling)
+console.log(ul.nextElementSibling)
 
 
 //to add a new element after the paragraph
 
-/*document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     
 
 const newElement = document.createElement("li");
@@ -89,4 +103,17 @@ newElement.textContent = "Black Men";
 
 
 
+})
+
+//EventListeners
+/*const btn = document.querySelector("button")
+btn.addEventListener("click", () => {
+  alert("hi");
+
 })*/
+
+const btn = document.querySelector("button");
+function alertBtn() {
+  alert("Hi")
+}
+btn.addEventListener("click", alertBtn)
