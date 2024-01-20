@@ -117,3 +117,9 @@ function alertBtn() {
   alert("Hi")
 }
 btn.addEventListener("click", alertBtn)
+
+//mouseover event
+function changeBackground() {
+  btn.style.backgroundColor = "blue";
+}
+btn.addEventListener("mouseover", changeBackground)
