@@ -47,3 +47,7 @@ let array5 = arr2.reduce((arr, array) => {
 return arr;
 }, arr1);
 console.log(arr1)
+
+let array6 = [33, 29, 2]
+array6 = array6.sort();
+console log()
